@@ -12,7 +12,7 @@ export default function Projects() {
   const shop = text("shop")
   // const template = text("template")
   return (
-    <div id="projects" className=" w-full flex gap-12 md:gap-0 flex-col md:flex-row items-center justify-center mt-32  text-center">
+    <div id="projects" className=" w-full flex gap-12 md:gap-0 flex-col md:flex-row items-center justify-center h-[500px] text-center">
      
       <PinContainer
         title="https://shopping-hazel-eight.vercel.app/"
