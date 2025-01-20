@@ -1,0 +1,35 @@
+{
+    "public" :{
+        "god":"I TRUST GOD",
+        "skills" : "SKILLS",
+        "appointment" : "Online Doctor Appointment System" ,
+        "shop" : "Store project",
+        "template" : "Platform template"
+
+    },
+    "introduction": {
+        "words": ["A Web Developer", "Sky and Stars Lover", "Athlete", "Robot Enthusiast"]
+      },
+    "words": {
+         "hello": "Hello" ,
+         "im": "I'm" ,
+         "fateme": "Fateme" ,
+         "koushki": "Koushki" ,
+         "front": "Frontend-Developer" 
+    },
+    "button": {
+        "projects" : "projects",
+        "contact" : "contact me"
+    },
+    "skills":{
+        "github" : "Github",
+        "js" : "JavaScript",
+        "react":"React.js",
+        "redux" : "Redux",
+        "next": "Next.Js",
+        "html" : "Html",
+        "tailwind": "Tailwind" ,
+        "ts" : "TypeScript"
+        
+    }
+}
