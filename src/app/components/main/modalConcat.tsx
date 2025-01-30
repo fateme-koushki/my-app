@@ -38,40 +38,40 @@ export function AnimatedModalDemo() {
             
             <div className=" flex flex-col flex-wrap gap-x-4 gap-y-6 items-start justify-start max-w-sm mx-auto">
             <div className="flex items-center justify-center">
-                <IconBrandLinkedin className="mr-1 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
+                <IconBrandLinkedin className="mx-2 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
                 <Link target="_blank" rel="noopener noreferrer"  href={`https://www.linkedin.com/in/fateme-koushki`} className="text-neutral-700 dark:text-neutral-300 text-sm">
                     www.linkedin.com/in/fateme-koushki
                 </Link>
               </div>
               <div className="flex  items-center justify-center">
-                <IconBrandGithub className="mr-1 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
+                <IconBrandGithub className="mx-2 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
                 <Link target="_blank" rel="noopener noreferrer"  href={`https://github.com/FatemeKoushki`} className="text-neutral-700 dark:text-neutral-300 text-sm">
                         github.com/FatemeKoushki
                 </Link>
               </div>
               
               <div className="flex items-center justify-center">
-                <IconBrandTelegram className="mr-1 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
+                <IconBrandTelegram className="mx-2 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
                 <Link href={`https://t.me/Fateme_koushki`} target="_blank" rel="noopener noreferrer" className="text-neutral-700 dark:text-neutral-300 text-sm">
-                 Telegram : Fateme_koushki
+                  Fateme_koushki
                 </Link>
               </div>
               <div className="flex  items-center justify-center">
-                <IconBrandX className="mr-1 text-neutral-700 dark:text-neutral-300 h-5 w-5"  />
+                <IconBrandX className="mx-2 text-neutral-700 dark:text-neutral-300 h-5 w-5"  />
                 <Link  target="_blank" rel="noopener noreferrer" href={`https://twitter.com/intent/tweet?url=${encodeURIComponent("Fatemekoushki")}`} className="text-neutral-700 dark:text-neutral-300 text-sm">
-                  X : Fatemekoushki
+                 Fatemekoushki
                 </Link>
               </div>
               <div className="flex items-center justify-center">
-                <IconBrandInstagram className="mr-1 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
+                <IconBrandInstagram className="mx-2 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
                 <Link href={instagramLink} target="_blank" rel="noopener noreferrer" className="text-neutral-700 dark:text-neutral-300 text-sm">
-                  Instagram : fatemee_koushki
+                   fatemee_koushki
                 </Link>
               </div>
               <div className="flex items-center justify-center">
-                <IconBrandGmail className="mr-1 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
+                <IconBrandGmail className="mx-2 text-neutral-700 dark:text-neutral-300 h-5 w-5" />
                 <Link href={mailtoLink} target="_blank" rel="noopener noreferrer" className="text-neutral-700 dark:text-neutral-300 text-sm">
-                  Gmail : fatemekoushki3@gmail.com
+                 fatemekoushki3@gmail.com
                 </Link>
               </div>
             </div>

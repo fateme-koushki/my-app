@@ -12,7 +12,7 @@ export default function Projects() {
   const shop = text("shop")
   // const template = text("template")
   return (
-    <div id="projects" className=" w-full flex gap-12 md:gap-0 flex-col md:flex-row items-center justify-center h-[500px] text-center">
+    <div id="projects" className=" w-full   flex gap-28 md:gap-0 flex-col md:flex-row items-center justify-center h-full text-center">
      
       <PinContainer
         title="https://shopping-hazel-eight.vercel.app/"
@@ -34,8 +34,8 @@ export default function Projects() {
         </div>
       </PinContainer>
       <PinContainer
-        title="https://doctor-appointment-taupe.vercel.app/"
-        href="https://doctor-appointment-taupe.vercel.app/"
+        title="https://doctor-appointment-taupe.vercel.app"
+        href="https://doctor-appointment-taupe.vercel.app"
         
       >
         <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">

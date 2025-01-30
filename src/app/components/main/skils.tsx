@@ -86,7 +86,7 @@ export function Skills() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-full mb-2 w-full text-center mx-auto  ">
+    <div className="flex flex-col items-center justify-center mb-2 w-full h-[30vh] lg:h-[35vh] text-center mx-auto  ">
       <div className="text-neutral-950 dark:text-white font-bold mb-4 md:text-xl"> {skills}</div>
       <FloatingDock
         mobileClassName="" // only for demo, remove for production

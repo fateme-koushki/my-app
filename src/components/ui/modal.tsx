@@ -9,6 +9,8 @@ import React, {
   useRef,
   useState,
 } from "react";
+import { useTranslations } from "next-intl";
+
 
 interface ModalContextType {
   open: boolean;
@@ -96,14 +98,14 @@ export const ModalBody = ({
             opacity: 0,
             backdropFilter: "blur(0px)",
           }}
-          className="fixed [perspective:800px] [transform-style:preserve-3d] inset-0 h-full w-full  flex items-center justify-center z-50"
+          className="fixed [perspective:800px] [transform-style:preserve-3d] inset-0 h-full w-full  flex items-center justify-center z-40"
         >
           <Overlay />
 
           <motion.div
             ref={modalRef}
             className={cn(
-              "min-h-[50%] max-h-[90%] md:max-w-[40%] bg-white dark:bg-neutral-950 border border-transparent dark:border-neutral-800 md:rounded-2xl relative z-50 flex flex-col flex-1 overflow-hidden",
+              "min-h-[40%] max-h-[90%] md:max-w-[50%] bg-white dark:bg-neutral-950 border border-transparent dark:border-neutral-800 md:rounded-2xl relative z-50 flex flex-col flex-1 overflow-hidden",
               className
             )}
             initial={{
@@ -153,14 +155,16 @@ export const ModalContent = ({
 };
 
 export const ModalFooter = () => {
+ const t = useTranslations('public');
+
   const { setOpen } = useModal();
   return (
     <div
       className={cn(
-        "flex justify-end p-4 bg-gray-100 dark:bg-neutral-900",
+        "flex justify-end items-center p-4 text-center ",
       )}
     >
-      <span onClick={()=>setOpen(false)} className="bg-gray-100 px-3 py-[1px] rounded-lg">close</span>
+      <span onClick={()=>setOpen(false)} className=" dark:bg-gray-100  bg-neutral-900 text-white/90 dark:text-neutral-900 px-3 py-[2px] rounded-lg">{t("close")}</span>
     </div>
   );
 };

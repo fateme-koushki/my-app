@@ -4,7 +4,8 @@
         "skills" : "SKILLS",
         "appointment" : "Online Doctor Appointment System" ,
         "shop" : "Store project",
-        "template" : "Platform template"
+        "template" : "Platform template",
+        "close" : "close"
 
     },
     "introduction": {

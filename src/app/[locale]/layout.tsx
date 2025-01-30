@@ -29,10 +29,9 @@ export default async function RootLayout({
 }) {
   const resolvedParams = await params;
 
-  const locale = resolvedParams.locale;
-   if (!routing.locales.includes(locale as "en" | "fa")) {
-    notFound();
-  }
+  const locale = routing.locales.includes(resolvedParams.locale as "en" | "fa")   
+    ? resolvedParams.locale   
+    : 'en'; 
   const dir = locale === 'fa' ? 'rtl' : 'ltr';
   const message = await getMessages()
   return (
